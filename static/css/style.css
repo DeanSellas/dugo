@@ -43,3 +43,18 @@ footer {
 #nextart,#prevart {
 	max-width: 33% ;
 }
+p:has(code) {
+	line-height: 20px;
+}
+p code {
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #333333;
+	color: white;
+}
+pre:has(> code) {
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background: #333333;
+}
